@@ -19,7 +19,8 @@ banner = """
 Author: Mohammad Hasan Rizvy Pranto
 Team Green Whale
 YouTube: Green Whale
-Tool: Defaced v1
+Tool: Defacer v1
+Press ctrl+z to stop process.
 
 """
 
@@ -62,7 +63,7 @@ def main(__bn__):
    print(__bn__)
    while True:
       try:
-         a = x("Enter your deface  script name: ")
+         a = x("Enter Your Deface  Script Name: ")
          if not os.path.isfile(a):
             print("file '%s' not found"%(a))
             continue
